@@ -1,0 +1,26 @@
+{
+  "name": "taller-node-nacho",
+  "version": "1.0.0",
+  "homepage": "https://github.com/JoeRobles/taller-node-nacho",
+  "authors": [
+    "Joe Robles <joe.robles.pdj@gmail.com>"
+  ],
+  "description": "Taller de Nacho",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "chat"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest"
+  }
+}
