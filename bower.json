@@ -21,6 +21,7 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "latest"
+    "jquery": "latest",
+    "socket.io-client": "latest"
   }
 }

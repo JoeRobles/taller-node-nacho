@@ -1,5 +1,13 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+    h1= title
+    p#welcome Welcome to #{title}
+    div#login
+        p Nickname:
+            input#nickname
+    div#chat
+        ol#messages
+        div
+            input#message(type='text')
+            input#submit-message(type='submit', value='Enviar')
