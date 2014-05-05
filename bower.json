@@ -21,7 +21,9 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "latest",
-    "socket.io-client": "latest"
+    "bootstrap": "latest",
+    "socket.io-client": "latest",
+    "angular": "1.0.8",
+    "angular-bootstrap": "latest"
   }
 }

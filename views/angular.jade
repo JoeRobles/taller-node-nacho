@@ -1,0 +1,15 @@
+extends layout_angular
+
+block content
+    div(data-ng-app="MyChat")
+        h1= title
+        p#welcome Welcome to #{title}
+        div(data-ng-view="")
+        script(id="login.html", type="text/ng-template")
+            p Nickname:
+                input#nickname
+        script(id="chat.html", type="text/ng-template")
+            ol#messages
+            div
+                input#message(type="text")
+                input#submit-message(type="submit", value="Enviar")
